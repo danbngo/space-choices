@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Space Choices - RPG</title>
+    <link rel="stylesheet" href="src/styles.css">
+</head>
+<body>
+    <div id="game-container">
+        <div id="game-header">
+            <h1 id="game-title">Space Choices</h1>
+        </div>
+        <div id="stats-panel"></div>
+        <div id="content-panel">
+            <div id="text-display"></div>
+            <div id="choices-container"></div>
+        </div>
+    </div>
+
+    <!-- Core Engine -->
+    <script src="src/core/state.js"></script>
+    <script src="src/core/ui.js"></script>
+    <script src="src/core/engine.js"></script>
+
+    <!-- Utilities -->
+    <script src="src/utils/stats.js"></script>
+    <script src="src/utils/choices.js"></script>
+
+    <!-- Game Definition -->
+    <script src="src/game.js"></script>
+</body>
+</html>
