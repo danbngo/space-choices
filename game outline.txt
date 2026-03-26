@@ -7,7 +7,13 @@ laser dice (red)
 markers used: each marker has a color
 
 conceptual tokens:
-distance (purple)
+distance (purple) - lose 1 every time you progress towards the destination system
+
+for captain stats:
+age (gray) - gain 1 every time you reach a new system
+bounty (red) - gain 1 for attacking non-criminal fleets
+fame (blue) - gain 1 for completing any quest or destroying criminal fleets
+credits (yellow) - in game currency
 
 
 for ship stats:
@@ -25,6 +31,7 @@ weapons (red), stims (orange)
 game "set" comes with the following types of decks.
 note: the deck concept needs to be added. for each category i list below, we need a deck with one card per color/number combination.
 ex: if red, blue and yellow are possible and 1-5 numbers are possible then we need 15 cards in that deck.
+note2: each card may need some rules printed on it, to explain how it works to the player- but i'll get around to that later.
 
 star cards: each star card represents a star of a given type. ex: black hole, red hypergiant, white dwarf, neutron star
 star cards have a color (representing its color) and number (representing its mass). maybe between 1-5.
@@ -44,21 +51,37 @@ ship module cards: these give ships special abilities.
 the color is based on the type: cloaking field, radar... maybe others later.
 the number is the power of the module.
 
-civilization cards: 
-there are different types of civilizations at each star system
-types include: anarchic, totalitarian, corporatist, republic, monarchy, etc.
-color is determined by the type.
-strength is determined by the number (1-5)
-
 fleet cards: these represent different npc fleets. 
 the number represents the number of ships in that fleet (generally 1-5).
 each has a listed faction which determines the color.
 pirates, red. merchants, yellow. police, blue. (for now, will add more later)
 
-hazard cards: these represent dangers that the player can run into.
-each has a type - ex: meteors, gas clouds, debris, radiation, solar flares, magnetic storms
+space hazard cards: these represent dangers that the player can run into in any region of space.
+each has a type - ex: meteors, gas clouds
 the number represents the level of danger (1-5).
 the color is determined by the type.
+
+planetary hazard cards: like the above, but apply to planet surfaces.
+example types: earthquakes, volcanic eruptions, storms
+
+orbital hazard cards: like the above, but apply to planet near-orbit distance
+example types: magnetic storms, radiation belts, debris, 
+
+stellar hazard cards: like the above, but apply to star near-orbit distance
+example types: solar flares, gravitational pull, 
+
+deep space anomaly cards: these represent unique, risky opportunities the player can run into.
+each has a type: abandoned ship, rogue planet, wormhole, interstellar fauna, etc.
+the number represents the risk/reward of the anomaly.
+
+planetary anomaly cards: like the above, but apply to planet surfaces.
+types include: alien ruins, cave system, native fauna, native flora
+
+orbital anomaly cards: like the above, but apply to planet near-orbit distances.
+types include: rings, major moon,
+
+stellar anomaly cards: like the above, but apply to star near-orbit distances
+types include: exotic matter, plasma, 
 
 planet cards: these represent planets that can exist at star systems.
 each has a type - ex: rocky, gaseous, icy, crystal, lava, earthlike, oceanic, desert, etc.
@@ -72,14 +95,38 @@ perk cards: these can be attached to officers to give them special abilities.
 color is based on the type: leadership... will add more later. leadership lets you hire 1 more officer per rank.
 level is 1-5.
 
+building cards: these are places the player can visit to use services.
+number is 1-5, the quality of the building 
+color = type. marketplace, shipyard, courthouse, guild, etc.
+
+planetary settlement cards. can be visited by the player to engage in various activities.
+1-5 number represents the development level of the settlement (# of buildings).
+color represents the type: scientific, trading post, military outpost, etc.
+
+space station cards. space stations provide unique services not found on planets.
+1-5 number represents the service level of the station.
+color represents the type: educational, gambling, paradise, religious
+
+civilization cards: these represent a civilization that could colonize a star system.
+the color is the type (each representing a different species, like humanity, robots, tyranid-likes, etc)
+and the number is the strength of that civilization (in number of fleets)
+
+
 ~~~~~~~~~~~~~~~~~~~
 
 unique decks - these dont follow the same rule of having "1 card per possible combination", instead they're more random
 and have a large number of cards. and have unique names per card.
 
-star system cards: each one has a title of the star system, up to 3 stars, each with a type. 
-the color is determined by the highest mass star. the number on the card represents how many stars.
-each system also has a total # of planets. a total # of hazards.
+
+sector cards: these represent regions of space the player can travel through.
+the number determines how large the sector is (LY/time needed to cross it) 1-5
+each sector has a total # of space hazards, anomalies, fleets, and stations
+
+star system cards: each one has a title of the star system, up to 5 stars. the size/color/type of each star is specified.
+the color of the card is based on the largest (primary) star.
+each system has a size, which forms the number of the card, similar to sector cards.
+each system also has a total # of planets (1-15). 
+and a total # of space hazards, stellar hazards
 
 
 ~~~~~~~~~~~~~~
@@ -91,8 +138,9 @@ any lvl 1 ship he wants (other than battleship, maybe)
 any lvl 1 officer card he wants (captain)
 [maybe] any lvl 1 perk card he wants.
 
-3 distance tokens - representing 3 LY to the nearest star system.
+a randomly drawn sector card, representing the current region of space.
 a randomly drawn star system card, representing the destination.
+a randomly drawn civilization card, representing the civ that owns that star system
 
 --
 the objective of the game is to travel to 10 different star systems and survive with a high score.
@@ -108,9 +156,32 @@ game is played in phases
 
 phase 1 - deep space travel
 
+this is when the player is traveling through a sector.
+first add a number of distance tokens equivalent to the size of the sector.
 
+when player first starts travelling, draw a number of space hazard, deep space anomaly, fleet and station cards
+to match the # specified by the sector, to comprise the "travel cards" for that sector
+
+during each travel juncture, blind shuffle the travel cards for that sector
+and draw the first card to see what the player encounters for each point in the journey.
+afterward that card is discarded and next card becomes the next point in the journey.
+remove 1 distance token to show that distance was travelled.
+if distance is 0, then AFTER the encounter, the player arrives at his destination.
 
 phase 2 - travel through a system
+
+similar to above, draw a number of space hazard, stellar hazard, planet and star cards based on the system
+and a # of fleet cards based on the civilization
+note: the star cards must be specifically drawn to match what was on the system card.
+to form the "travel cards"
+add a number of distance tokens based on the number on the system card.
+
+similar to travel in deep space, blind shuffle the travel cards for that sector
+and draw the first card to see what the player encounters for that AU
+afterward that card is discarded and next card becomes the next point in the journey.
+remove 1 distance token afterward.
+if distance is 0, then AFTER the enocunter, the player exists the
+
 
 phase 3 - docked at a planet
 
