@@ -1,0 +1,138 @@
+ok, generation ship
+KODP meets seedship
+
+the idea - you fly through space, going from system to system and planet to planet.
+during this process, you have to make meaningful choices to help your generation ship survive and thrive.
+usually the choices have a moral or philosophical flavor and have lasting effects (and are recorded)
+the population, technology, culture, etc - basically the mini-society on the ship - evolves based on your choices and some RNG.
+
+you can, at any time, settle down on a planet and try to colonize it.
+your success depends on the planet/system you're in, as well as the overall state of your generation ship.
+
+note - success is cool and all, but it's also interesting to shoot for different endings and types of societies.
+to encourage variety, during playthroughs you'll get random bonuses, items, schematics, etc that encourage the player to try settling
+different types of planets/systems.
+
+game should be somewhat incremental and not bombard the player with all its mechanics early on
+
+
+other things you can do in the game:
+-raid or take captives from planets you encounter if they're weaker than you
+-conquer a planet instead of colonizing it if it has weaker inhabitants
+-find a new flora/fauna species (interstellar or planetary) and interact with it
+-uncover alien relics, trade them, or just keep them and enjoy the benefits (with research/study)
+-unlock new technologies and deal with (form policies around) the resulting social consequences
+-promote, designate councillors and deal with their occasional infighting/maneuvering for power
+-choose a system of government (or let the people decide), which lets you manage your ship/crew/council differently
+-deal with revolts, opposition parties, terror, crime, riots, etc.
+-meet other ships and trade, fight, raid, share news, flee, ignore, etc.
+-explore uncivilized planets and collect resources, check for relics, catalog new scientific data
+-meet intelligent species at different levels of development and interact with them
+-upgrade your ship's systems and facilities - everything from life support to weapons to hydroponics
+-collect resources like cargo, drones, attack ships, shuttles, crew members, etc.
+-visit space stations in deep space and hear news from around the galaxy, take on misssions
+-learn about the major species/factions in the galaxy, their conflicts and wars and alliances, and participate in them
+-encounter new religions, spread that religion, visit holy sites, engage in religious council events
+-discover ancient alien ruins and explore them, high risk and high reward
+
+the stats
+
+population - 
+ you don't want this to get too large or it'll overwhelm the ship's life support capacity/lead to crowding.
+ but if its too low you may end up with genetic defects, and not have enough manpower to effectively colonize.
+
+morale -
+ too low and the ship is in danger of mutiny, terrorism, strikes, etc.
+ too high and the ship's population becomes militant and overzealous.
+
+stability - 
+ crews can have low morale but high stability if you're ruling through fear.
+ too high and innovation slows down, reports get fabricated etc. too low and revolt starts happening.
+
+reserves - food, air, water, metal, soil, nanites
+ too low and you can't survive periods of scarcity or miss opportunities.
+ too high and it leads to resentment from poorer citizens.
+
+illicit cargo: weapons, drugs, antimatter -
+ like reserves, but more risky to carry (police dont like it, can cause crime on ship)
+
+credits - 
+ too low and you can't trade much with other ships.
+ too high and it leads to wealthy oligarchs and resentment.
+
+religion balance - 
+ there should be major religions with different characteristics
+
+culture - basically follows the 8values model with each stat being a spectrum
+ collectivism vs individualism
+ identitarianism vs universalism
+ liberty vs authority
+ tradition vs innovation
+ religion vs secularism
+
+politics - the governing systems of the ship
+economic system: free exchange, socialism, central planning, oligarchy, etc
+labor system: serfdom, caste system, emancipation
+legal system: bureaucracy, totalitarianism, liberalism
+governing system: republic, democracy
+
+species balance:
+ humans
+ metahumans
+ cyborgs
+ androids
+ 
+policies: specific decision points that your ship's citizens made
+ AI policy: AI chauvinism, AI equality, AI integration, human chauvinism, AI banned
+ genetic modification: encouraged, permitted, regulated, outlawed
+ etc.
+
+features: additions to the ship that have positive effects and/or drawbacks
+ AI Overseer
+ Cloning vats
+ Cryogenic chambers
+ etc.
+
+profession balance: each profession is useful at different times.
+however, being too heavily weighted can lead to that profession having
+outsized influence and interfering with the player's moves.
+ officers - the bureaucracy and leadership of the ship
+ pilots - help navigate the ship and do dogfights when needed
+ soldiers - responsible for policing the ship and repelling threats
+ scientists - research and development, robotics, genetics, etc.
+ miners - extracting resources from the environment
+ engineers - fixing and upgrading the ship
+ doctors - keeping the crew healthy and fit
+ merchants - responsible for internal and external trade/commerce/finance
+ artists - keeps the crew entertained and happy
+ laborers - the inevitable menial, drudge work
+
+councillers - 
+ each should have skills, a preferred religion/political system, age, etc.
+ and a profession.. gender.. species.. like kodp.
+ councillors make your crew/ship more effective but have upkeep (credits)
+
+facilities - 
+ things like cargo bays, medbay, machine shop etc. you can upgrade them over time.
+ these make your actions more effective, or unlock new ones, but have upkeep.
+ 
+faction relationships-
+ merchants, pirates, police, etc.
+
+relics-
+ ancient alien tech with mysterious effects (pros and cons)
+
+~~~~~~~~~~
+
+game play
+
+obviously random events/choices should factor in
+
+obviously should spend a lot of time flying through space, exploring planets
+
+deep space travel periods will be nice to just make choices involving the ship
+-although they'll still have moral implications re: factions, etc.
+
+but there should also be KODP style stat management - ex: choose how many kids
+to train in each profession (or to just weight a few)
+
