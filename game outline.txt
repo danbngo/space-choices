@@ -1,3 +1,30 @@
+ok i realized why this game wont work, and why trying to make games in this particular manner
+(ie heavily numbers/management based games)
+doesnt work
+
+
+
+
+
+
+~~~
+core concepts that will make this game interesting
+
+it is legit hard to survive interstellar travel (how?)
+-this part is somewhat easy, just make encounters relatively tough, resources scarce, and encounters frequent whereas getting to planets is generally good.
+
+game gets gradually harder as well (how?)
+
+wont work:
+-increasing resource scarcity. doesnt make sense.
+-increasingly difficult encounters (more pirates, etc). may make sense if we are modelling "getting out of civilized space"
+-increasingly worse character (seedship approach). doesnt make sense.
+
+conclusion:
+we need to make the game about traveling away from the center of the galaxy (solar sails?)
+would be ideal to have a colonize the system option near the end.
+~~~
+
 
 game uses dice, cards and markers
 
@@ -100,8 +127,8 @@ number is 1-5, the quality of the building
 color = type. marketplace, shipyard, courthouse, guild, etc.
 
 planetary settlement cards. can be visited by the player to engage in various activities.
-1-5 number represents the development level of the settlement (# of buildings).
-color represents the type: scientific, trading post, military outpost, etc.
+1-5 number represents the development level of the settlement (# of buildings and # of fleets).
+color represents the type: scientific, trading post, military outpost, pirate den, etc.
 
 space station cards. space stations provide unique services not found on planets.
 1-5 number represents the service level of the station.
@@ -121,6 +148,7 @@ and have a large number of cards. and have unique names per card.
 sector cards: these represent regions of space the player can travel through.
 the number determines how large the sector is (LY/time needed to cross it) 1-5
 each sector has a total # of space hazards, anomalies, fleets, and stations
+each sector has a number of "trade routes" (links to other sectors)
 
 star system cards: each one has a title of the star system, up to 5 stars. the size/color/type of each star is specified.
 the color of the card is based on the largest (primary) star.
@@ -156,7 +184,7 @@ game is played in phases
 
 phase 1 - deep space travel
 
-this is when the player is traveling through a sector.
+this is when the player is traveling through a sector to get to his destination.
 first add a number of distance tokens equivalent to the size of the sector.
 
 when player first starts travelling, draw a number of space hazard, deep space anomaly, fleet and station cards
@@ -167,75 +195,46 @@ and draw the first card to see what the player encounters for each point in the 
 afterward that card is discarded and next card becomes the next point in the journey.
 remove 1 distance token to show that distance was travelled.
 if distance is 0, then AFTER the encounter, the player arrives at his destination.
+after a sector is traversed its card is placed in the discard pile.
 
 phase 2 - travel through a system
 
-similar to above, draw a number of space hazard, stellar hazard, planet and star cards based on the system
+similar to above, draw a number of space hazard, stellar hazard
 and a # of fleet cards based on the civilization
-note: the star cards must be specifically drawn to match what was on the system card.
 to form the "travel cards"
+
 add a number of distance tokens based on the number on the system card.
 
-similar to travel in deep space, blind shuffle the travel cards for that sector
-and draw the first card to see what the player encounters for that AU
-afterward that card is discarded and next card becomes the next point in the journey.
-remove 1 distance token afterward.
-if distance is 0, then AFTER the enocunter, the player exists the
+draw a number of star cards based on the system
+note: the star cards must be specifically drawn to match what was on the system card.
+shuffle the planet cards and draw enough to populate the system based on its planet card.
+shuffle all these cards together blind and then flip them face up so they have a preset order.
 
+shuffle the deck of planetary settlement cards and draw one per planet card. 
+place one settlement card on each planet in order.
+
+the player must "visit" each planet or star card in order, with one encounter in between from the travel cards.
+afterward that card is discarded and next card becomes the next point in the journey. (unless the planet was the last one)
+remove 1 distance token afterward.
+
+again, a travel card is placed in the expended travel pile after usage.
+if all travel cards are expended, then they're reshuffled.
+
+if distance is 0, then AFTER the encounter, the player exits the system
+after a system is exited its card is placed in the discard pile.
 
 phase 3 - docked at a planet
 
+when the player arrives at a planet, draw a number of building and fleet cards equal to the development level.
+any fleet card not included in the planet type's list is discarded. more on planet types later.
+to reach the planet's surface, the player must encounter each fleet.
+the player may then use any service provided by its buildings.
+more on services later.
+
 phase 4 - choosing a new destination
 
+when exiting the system, the player must choose a new destination.
+the # of available destinations is determined by the previously traversed sector.
+shuffle all remaining sector cards and deal the number available.
 
-
-
-day - days since game start
-
-you have a ship, which can hold 10/10 of the following things initially
-air - 1 is consumed per day
-water - same as above, 2x more valuable than air
-food - same as above, 3x more valuable than water
-metal - doesnt do anything useful on its own but is 4x more valuable than food
-soil - ???
-hull - condition of your spaceship. if it reaches 0, you die
-fuel - can be used to activate thrusters and escape from bad situations
-
-you start the game in deep space headed towards a star system, which is represented by
-distance - number of days to your destination system (starts at 5)
-
-each day traveling in space you get an encounter or random event
-
-example events
-meteorites - your ship is near meteorites flying through deep space
-you can try to harvest them - risks hull, may yield some metal
-you can try to pilot through them - risks hull, but less than harvesting
-you can try to avoid them entirely - risks adding distance
-
-need similar events for icy bodies (yields water instead of metal) and gas clouds (yields gas)
-
-
-when you reach a star system, it has a random number of stars (1-3) and planets (1-15)
-planets can be: gas giant, gas dwarf, ice giant, ice dwarf, rock giant, rock dwarf
-
-the player is using a solar sail so his movement is unidirectional based on galactic currents. 
-he can visit up to 33% (rounded up) of the planets in a system before departing it, each planet is a hop.
-he gets a random selection of 3 planets he can choose to visit during each "hop"
-
-planets have a 50% chance to be inhabited.
-if inhabited, they have a 50% chance of each of the following buildings
-market - allows buying/selling goods (water, food, metal, gas) for credits
--each market has a set number of each good at the start (0-50), and can "run out"
-dock - allows repairing hull for credits and refueling for credits.
--each dock has a certain amount of metal and fuel (25-100), cannot repair/refuel above that amount
-
-at uninhabited planets, player can harvest resources
-depending on the planet type, this will yield more air, water, fuel, metal or rarely food (planet must have life, 10% chance)
-
-planets can have ocean types - none, water, hydrocarbon (effecting the resource types)
-and surface types - rocky, crystalline, 
-
-
-when leaving the system, you can choose from 3 new destination systems
-each is between 3-10 distance away and you can see what planets it has and the amount of each type
 
